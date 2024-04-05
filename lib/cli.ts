@@ -277,7 +277,7 @@ program.command('wallet-decode')
 program.command('wallet-init')
   .description('Initializes a new wallet at wallet.json')
   .option('--phrase <string>', 'Provide a wallet phrase')
-  .option('--path <string>', 'Provide a path base', `m/86'/0'/0'`)
+  .option('--path <string>', 'Provide a path base', `m/44'/0'/0'`)
   .option('--n <number>', 'Provider number of alias')
   .action(async (options) => {
     try {
